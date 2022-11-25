@@ -1,0 +1,13 @@
+{
+  "name": "valyria-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.15.15"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.js"
+  }
+}
